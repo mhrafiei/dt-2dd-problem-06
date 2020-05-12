@@ -1,0 +1,34 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+cond_raw = false;
+cond_agm = true;
+cond_ext = true;
+cond_prp = true;
+cond_cpt = true;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% Step 1: data raw
+if cond_raw
+    fun_data_raw_20200504(disl_num,res_val)
+end
+
+% Step 2: data arrangement
+if cond_agm
+    fun_data_agm_20200504(disl_num,res_val)
+end
+
+% Step 3: data extraction
+if cond_ext
+    fun_data_ext_20200504(disl_num,res_val)
+end
+
+% Step 4 data ml preperation
+if cond_prp
+    fun_data_prp_20200504(disl_num,res_val)
+end
+
+% Step 5 plot
+if cond_cpt
+    fun_data_cpt_20200504(disl_num,res_val)
+end
+

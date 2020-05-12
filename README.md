@@ -26,4 +26,4 @@
 ## 5. For a particular dislocation number, say 10, copy final .mat and .txt data to the data-matlab folder under ml-2dd-problem-06:
 >* cp ~/dt-2dd-problem-06/0000000010/results/data_* ~/ml-2dd-problem-06/data-matlab/
 
-## 6. run code_data.py (check the ReadMe corresponding to ml-2dd-problem-06)
+## 6. Run code_data.py (check the ReadMe corresponding to ml-2dd-problem-06)

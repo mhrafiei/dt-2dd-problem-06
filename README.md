@@ -1,4 +1,4 @@
-# Creat machine learning data repository for different number of dislocations using MARCC parallel super computing facilities
+# Creat machine learning data repository for different number of dislocations using MARCC parallel supercomputing facilities
 
 ```diff
 ! READ FIRST! 
